@@ -1,8 +1,64 @@
-<% content_for(:title) { "AWS Prod Dashboard" } %>
+<% content_for(:title) { "AWS Servers Dashboard" } %>
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-    <div data-id="foreman" data-view="Simplemon" data-title="Foreman"></div>
+      <div data-id="foreman-prod" data-view="Simplemon" data-title="AWS Production Nodes"></div>
     </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-prod-1" data-view="Simplemon" data-title="Total Hosts"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-prod-2" data-view="Simplemon" data-title="Good Hosts"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-prod-3" data-view="Simplemon" data-title="Applied Changes"></div>
+    </li>
+    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-prod-4" data-view="Simplemon" data-title="Out of Sync"></div>
+    </li>
+    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-prod-5" data-view="Simplemon" data-title="Hosts with Errors"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage" data-view="Simplemon" data-title="AWS Staging Nodes"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage-1" data-view="Simplemon" data-title="Total Hosts"></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage-2" data-view="Simplemon" data-title="Good Hosts"></div>
+    </li>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage-3" data-view="Simplemon" data-title="Applied Changes"></div>
+    </li>
+    <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage-4" data-view="Simplemon" data-title="Out of Sync"></div>
+    </li>
+    <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-stage-5" data-view="Simplemon" data-title="Hosts with Errors"></div>
+    </li>
+
+<!--
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev" data-view="Simplemon" data-title="AWS Dev Nodes"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev-1" data-view="Simplemon" data-title="Total Hosts"></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev-2" data-view="Simplemon" data-title="Good Hosts"></div>
+    </li>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev-3" data-view="Simplemon" data-title="Applied Changes"></div>
+    </li>
+    <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev-4" data-view="Simplemon" data-title="Out of Sync"></div>
+    </li>
+    <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+      <div data-id="foreman-dev-5" data-view="Simplemon" data-title="Hosts with Errors"></div>
+    </li>
+-->
+  
   </ul>
 </div>
