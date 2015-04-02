@@ -1,1 +1,4 @@
-Check out http://shopify.github.com/dashing for more information.
+Study.com, LLC Dashing Dashboards
+
+Displays the state of puppet runs in AWS infrastructure (multiple VPC)
+
